@@ -1,0 +1,4 @@
+<div *ngFor="let item of data; index as i">
+  <p>{{ item }}</p>
+  <button type="button" (click)="onDelete(i)">delete todo</button>
+</div>
